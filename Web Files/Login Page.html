@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Secret Social Club</title>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        color: white;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        text-align: center;
+    }
+    h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .form-input {
+        margin-bottom: 15px;
+        padding: 10px;
+        width: 250px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+    .button, .sign-in {
+        padding: 10px 20px;
+        background-color: white;
+        color: black;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+        border-radius: 5px;
+        margin-top: 10px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .button:hover, .sign-in:hover {
+        background-color: #acacac;
+    }
+    .button:active, .sign-in:active {
+        transform: scale(0.95); /* Slightly shrink the button */
+    }
+    .sign-in {
+        background-color: #f1f1f1; /* Green */
+        color: rgb(0, 0, 0);
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Login to Secret Social Club</h1>
+    <input type="text" class="form-input" placeholder="Username" />
+    <input type="password" class="form-input" placeholder="Password" />
+    <button class="button">Login</button>
+    <button class="sign-in">Sign In</button>
+</div>
+</body>
+</html>
