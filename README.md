@@ -1,2 +1,2 @@
 # EAOS-project
-just a unofficial public projec t(for my friends secret club login webpages and stuff)
+just a unofficial public project(for my friends secret club webpages and stuff)
